@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.SoftLab</groupId>
+  <artifactId>MyMaven</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>MyMaven</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+<dependencies>
+   <dependency>
+         <groupId>Fibonacci</groupId>
+         <artifactId>Fibonacci</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>C:\Users\Sandhiya.Munisamy\Documents\Java Programs\workspace new\MyMaven\src\lib\Fibonacci.jar</systemPath>
+      </dependency>
+      
+       <dependency>
+         <groupId>MyMaven</groupId>
+         <artifactId>MyMaven</artifactId>
+         <scope>system</scope>
+         <version>0.0.1-SNAPSHOT</version>
+         <systemPath>C:\Users\Sandhiya.Munisamy\Documents\Java Programs\workspace new\MyMaven\target\MyMaven-0.0.1-SNAPSHOT.jar</systemPath>
+      </dependency>
+      
+      <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>3.8.1</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+  <groupId>com.atmecs</groupId>
+  <artifactId>calculator</artifactId>
+  <version>0.0.1-20190613.085335-1</version>
+</dependency>
+
+<dependency>
+  <groupId>com.atmecs.ExceptionHandling</groupId>
+  <artifactId>Exception</artifactId>
+  <version>0.0.1-20190619.115335-1</version>
+</dependency>
+
+   </dependencies>
+   
+   <distributionManagement>
+<repository>
+<uniqueVersion>false</uniqueVersion>
+<id>horse</id>
+<name>horse</name>
+<url>http://localhost:8081/repository/horse/</url>
+<layout>default</layout>
+</repository>
+
+
+</distributionManagement>
+<repositories>
+<repository>
+<id>Calculator</id>
+<url>http://50.50.50.152:8081/repository/Calculator/</url>
+</repository>
+</repositories>
+
+
+   
+   
+</project>
