@@ -1,4 +1,4 @@
-package com.atmecs.ExceptionHandling.Exception;
+package com.atmecs.javadoc;
 
 import java.util.Scanner;
 
