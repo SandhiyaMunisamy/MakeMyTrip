@@ -10,11 +10,16 @@
    <context:annotation-config/>
 
   
-   <bean id = "employee" class = "com.atmecs.SpringFramework.AnnotationRequired.Employee" 
+  <bean id = "employee" class = "com.atmecs.SpringFramework.AnnotationRequired.Employee" 
              init-method = "init" destroy-method = "destroy">
       <property name = "name" value = "Sandhiya" />
       <property name = "id" value = "1017" />
         <property name = "age"  value = "23"/>
+      <constructor-arg index = "0" value = "1012"/>
+      <constructor-arg index = "1" value = "2019"/>
+        
+       
+   
    </bean>
 
 

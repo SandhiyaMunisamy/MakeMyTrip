@@ -10,8 +10,11 @@ public class Employee {
 	public int eid;
 	public int DOJ;
 	
-	   
-	 @Required
+	public Employee(int eid, int DOJ) {
+		eid=eid;
+		DOJ=DOJ;
+	}
+	@Required
 	   public void setName(String name) {
 	      this.name = name;
 	   }
@@ -19,7 +22,7 @@ public class Employee {
 	      return name;
 	   }
 	   
-	  @Autowired
+	 @Autowired
 	   public void setid(int id) {
 	      this.id = id;
 	   }
@@ -28,7 +31,7 @@ public class Employee {
 	   }
 	   
 	  
-	   @Autowired
+	  @Autowired
 	   public void setAge(int age) {
 	      this.age = age;
 	   }

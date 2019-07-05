@@ -10,6 +10,7 @@ public class MainApp {
 		      System.out.println("Employee Name : " +emp.getName() );
 		      System.out.println("Employee Id : " +emp.getid() );
 		       System.out.println("Age : " +emp.getAge() );
+		     
 		   }
 
 }
