@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Sandhiya.Munisamy
+Build-Jdk: 12.0.1
+Implementation-Title: SpringBootPostOperation
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.atmecs
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/SpringBootPost
+ Operation/
+Created-By: Maven Integration for Eclipse
+

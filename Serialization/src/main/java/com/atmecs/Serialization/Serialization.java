@@ -27,6 +27,7 @@ public class Serialization {
          details(employee);
       } catch (IOException i) {
          i.printStackTrace();
+         
       }
 	}
 }
