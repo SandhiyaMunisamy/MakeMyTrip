@@ -18,7 +18,9 @@ public class PostRestAssured {
 		System.out.println("json" + requestParams.toString());
 
 		RestAssured.given().contentType("application/json").body(requestParams).when()
-				.get("http://localhost:3500/employee/1017").then();
+				.get("http://localhost:3800/employee/1017").then();
+		
+		
 
 	}
 	
@@ -27,14 +29,14 @@ public class PostRestAssured {
 
 		JSONObject requestParams = new JSONObject();
 
-		requestParams.put("empNo", "4646");
-		requestParams.put("empName", "xyz");
+		requestParams.put("empNo", "778877");
+		requestParams.put("empName", "Mirunalini");
 		requestParams.put("position", "Analyst");
 
 		System.out.println("json" + requestParams.toString());
 
 		RestAssured.given().contentType("application/json").body(requestParams).when()
-				.post("http://localhost:3500/employee").then();
+				.post("http://localhost:3800/employee").then();
 
 	}
 	
@@ -42,14 +44,24 @@ public class PostRestAssured {
 	@Test
 	void putRequest() {
 		JSONObject requestParams = new JSONObject();
-		requestParams.put("empNo", "4646");
-		requestParams.put("empName", "xyz");
-		requestParams.put("position", "Trainee");
+		requestParams.put("empNo", "2045");
+		requestParams.put("empName", "Vasanth");
+		requestParams.put("position", "HR");
 
 		System.out.println("json" + requestParams.toString());
            
 		RestAssured.given().contentType("application/json").body(requestParams).when()
-				.put("http://localhost:3500/employee").then();
+				.put("http://localhost:3800/employee").then();
+
+	}
+	@Test
+	void deleteRequest() {
+		JSONObject requestParams = new JSONObject();
+
+		System.out.println("json" + requestParams.toString());
+
+		RestAssured.given().contentType("application/json").body(requestParams).when()
+				.delete("http://localhost:3800/employee/1456").then();
 
 	}
 }

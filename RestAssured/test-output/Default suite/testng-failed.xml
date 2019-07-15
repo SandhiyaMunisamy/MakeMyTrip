@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.RestAssured.PostRestAssured">
+      <class name="com.atmecs.RestAssured.RestAssuredBDD">
         <methods>
-          <include name="registrationSuccessful"/>
+          <include name="PutEmployee"/>
+          <include name="PostEmployee"/>
         </methods>
-      </class> <!-- com.atmecs.RestAssured.PostRestAssured -->
+      </class> <!-- com.atmecs.RestAssured.RestAssuredBDD -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
