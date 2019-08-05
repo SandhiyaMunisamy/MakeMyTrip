@@ -40,7 +40,7 @@ public class ExcelDataProvider {
 
 		// data for Registration form
 		RegisterUserData = wb.getSheetAt(0);
-		int RowNumber = 2;
+		int RowNumber = 3;
 		int cellNumber = 0;
 
 		// getting values from sheet with row and cell

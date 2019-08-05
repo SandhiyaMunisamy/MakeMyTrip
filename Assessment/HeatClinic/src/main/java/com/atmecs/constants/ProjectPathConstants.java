@@ -17,7 +17,7 @@ public class ProjectPathConstants {
 
 //ObjectRepository
 	public static String objectrepository = resources + "ObjectRepository.properties";
-	
+
 //log4j properties 
 	public static String log = resources + "log4j.properties";
 }

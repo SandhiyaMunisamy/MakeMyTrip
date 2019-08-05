@@ -1,0 +1,57 @@
+2019-08-05 19:03:28,011  INFO [main] TestBase:29 - Running browser: chrome
+2019-08-05 19:03:33,309  INFO [main] TestBase:32 - Chrome driver set ChromeDriver: chrome on XP (fe2d139c45051a34d3626790efeb92e5)
+2019-08-05 19:03:41,814  INFO [main] LogReportFile:24 - Registered SuccesfullyBroadleaf Commerce Demo Store - Heat Clinic - Register
+2019-08-05 19:06:49,885  INFO [main] LogReportFile:24 - Running browser: chrome
+2019-08-05 19:06:54,705  INFO [main] LogReportFile:24 - Chrome driver set ChromeDriver: chrome on XP (4aecc708ae6646838b6bf2e0ec6e8981)
+2019-08-05 19:07:15,898  INFO [main] LogReportFile:24 - Added to Cart Successfully
+2019-08-05 19:07:52,550  INFO [main] LogReportFile:24 - Running browser: chrome
+2019-08-05 19:07:56,187  INFO [main] LogReportFile:24 - Chrome driver set ChromeDriver: chrome on XP (4a743258cf34a068f1310b638dd9730b)
+2019-08-05 19:08:23,496  INFO [main] LogReportFile:24 - Added to Cart Successfully
+2019-08-05 19:20:28,427  INFO [main] LogReportFile:20 - Running browser: chrome
+2019-08-05 19:20:32,615  INFO [main] LogReportFile:20 - Chrome driver set ChromeDriver: chrome on XP (53fb91d7f6e2f4afbacc3e9866f0f66c)
+2019-08-05 19:20:38,010  INFO [main] TestLogin:46 - User LoggedIn Successfully
+2019-08-05 19:20:54,877  INFO [main] LogReportFile:20 - Running browser: chrome
+2019-08-05 19:20:58,894  INFO [main] LogReportFile:20 - Chrome driver set ChromeDriver: chrome on XP (b415e5df837fd1c03d42a7ee87b0121c)
+2019-08-05 19:21:03,796  INFO [main] LogReportFile:20 - Registered SuccesfullyBroadleaf Commerce Demo Store - Heat Clinic - Register
+2019-08-05 19:21:04,936  INFO [main] LogReportFile:20 - Running browser: chrome
+2019-08-05 19:21:07,757  INFO [main] LogReportFile:20 - Chrome driver set ChromeDriver: chrome on XP (350a4bd9d24f9314b42381175776ed99)
+2019-08-05 19:21:13,331  INFO [main] TestLogin:46 - User LoggedIn Successfully
+2019-08-05 19:21:14,548  INFO [main] LogReportFile:20 - Running browser: chrome
+2019-08-05 19:21:17,387  INFO [main] LogReportFile:20 - Chrome driver set ChromeDriver: chrome on XP (900c193cce310f2e8e8f3121dca132d7)
+2019-08-05 19:21:37,684  INFO [main] LogReportFile:20 - Added to Cart Successfully
+2019-08-05 19:21:38,772  INFO [main] LogReportFile:20 - Running browser: chrome
+2019-08-05 19:21:41,531  INFO [main] LogReportFile:20 - Chrome driver set ChromeDriver: chrome on XP (c743e848565d93afde65e09441e0f56d)
+2019-08-05 19:43:21,584  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 19:43:25,362  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (90781f3d68c412e4b035ef86f5684e56)
+2019-08-05 19:43:31,343  INFO [main] LogReportFile:29 - Registered SuccesfullyBroadleaf Commerce Demo Store - Heat Clinic - Register
+2019-08-05 19:43:32,923  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 19:43:36,465  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (194282e9f267b2bd7346b302dd567dcc)
+2019-08-05 19:43:42,485  INFO [main] TestLogin:46 - User LoggedIn Successfully
+2019-08-05 19:43:43,674  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 19:43:46,183  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (da38489d647db1e0b51afb190e60f903)
+2019-08-05 19:44:06,076  INFO [main] LogReportFile:29 - Added to Cart Successfully
+2019-08-05 19:44:07,267  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 19:44:10,078  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (a720d3346195215ea46344cc4e8a5802)
+2019-08-05 19:46:28,623  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 19:46:31,895  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (c8c38ea5d831a131200d0340b4b8dc6b)
+2019-08-05 19:46:38,349  INFO [main] LogReportFile:29 - Registered SuccesfullyBroadleaf Commerce Demo Store - Heat Clinic - Register
+2019-08-05 19:46:39,804  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 19:46:42,911  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (b3819bb6054cfe8c2b1e16e6a155b33d)
+2019-08-05 19:46:49,288  INFO [main] TestLogin:46 - User LoggedIn Successfully
+2019-08-05 19:46:50,465  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 19:46:53,698  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (8a222e4da637dd2cc96f2646b4798296)
+2019-08-05 19:47:09,800  INFO [main] LogReportFile:29 - Added to Cart Successfully
+2019-08-05 19:47:11,019  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 19:47:14,563  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (7ca57b81251f2de674482ebd62d8f3f4)
+2019-08-05 20:00:23,427  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 20:00:27,479  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (feff83b0885d73b08afe96f39299f66f)
+2019-08-05 20:00:33,214  INFO [main] LogReportFile:29 - Registered SuccesfullyBroadleaf Commerce Demo Store - Heat Clinic - Register
+2019-08-05 20:00:34,521  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 20:00:37,903  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (67288973a3a1b368a70620e99a01afa2)
+2019-08-05 20:00:42,568  INFO [main] LogReportFile:29 - User LoggedIn Successfully
+2019-08-05 20:00:43,649  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 20:00:46,807  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (adb3748c2db8c5166e46b38c4a282a2a)
+2019-08-05 20:01:04,857  INFO [main] LogReportFile:29 - Added to Cart Successfully
+2019-08-05 20:01:06,112  INFO [main] LogReportFile:29 - Running browser: chrome
+2019-08-05 20:01:09,110  INFO [main] LogReportFile:29 - Chrome driver set ChromeDriver: chrome on XP (9010484dc733026b0ec7c902407a1898)
+2019-08-05 20:01:16,871  INFO [main] LogReportFile:29 - Item Removed Successfully
