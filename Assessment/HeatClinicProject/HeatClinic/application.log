@@ -1,0 +1,302 @@
+2019-08-09 12:40:20,425  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:40:24,208  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (2e39406b7e7af19967cb2da104cf1178)
+2019-08-09 12:40:30,851  INFO [main] LogReportFile:29 - Started Test Scenario 1:Registration
+2019-08-09 12:40:33,181  INFO [main] LogReportFile:29 - Actual: https://10.10.10.232:8443/register
+2019-08-09 12:40:33,182  INFO [main] LogReportFile:29 - Expected: register_url
+2019-08-09 12:40:33,183  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:40:33,203  INFO [main] LogReportFile:29 - User Registered SuccesfullyBroadleaf Commerce Demo Store - Heat Clinic - Register
+2019-08-09 12:40:34,276  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:40:37,017  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (6d5329009a1c3d983314fd39b1e5b1d7)
+2019-08-09 12:40:38,966  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 12:40:40,813  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:40:40,814  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:40:40,814  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:40:40,871  INFO [main] LogReportFile:29 - Login Successful
+2019-08-09 12:40:41,877  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:40:44,464  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (dc844a86417f2c6d8881c28512fd31d3)
+2019-08-09 12:40:46,453  INFO [main] LogReportFile:29 - Started Test Scenario 3: Add To Cart
+2019-08-09 12:40:48,378  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:40:48,378  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:40:48,379  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:40:48,434  INFO [main] LogReportFile:29 - Login for Add to cart successful
+2019-08-09 12:40:49,461  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:40:52,371  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (3a1d44ddeb6798d27b72300de04576ad)
+2019-08-09 12:40:54,344  INFO [main] LogReportFile:29 - Processing Add to cart
+2019-08-09 12:40:55,393  INFO [main] LogReportFile:29 - Clicked on Buy now
+2019-08-09 12:40:55,741  INFO [main] LogReportFile:29 - Clicked incart
+2019-08-09 12:40:56,386  INFO [main] LogReportFile:29 - quantity updated
+2019-08-09 12:40:56,606  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/hot-sauces
+2019-08-09 12:40:56,606  INFO [main] LogReportFile:29 - Expected: addtocart_url
+2019-08-09 12:40:56,607  INFO [main] LogReportFile:29 -  Message :Title verified
+2019-08-09 12:41:01,129  INFO [main] LogReportFile:29 - clicked checkout
+2019-08-09 12:41:01,147  INFO [main] LogReportFile:29 - Actual: https://10.10.10.232:8443/checkout
+2019-08-09 12:41:01,148  INFO [main] LogReportFile:29 - Expected: addtocart_checkout_url
+2019-08-09 12:41:01,148  INFO [main] LogReportFile:29 -  Message :Checkout url
+2019-08-09 12:41:16,037  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:41:18,600  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (109e5cc45e0b35b57ec97b115fa74929)
+2019-08-09 12:41:20,855  INFO [main] LogReportFile:29 - Started Test Scenario 4:Remove From cart
+2019-08-09 12:41:23,059  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:41:23,059  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:41:23,060  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:41:23,119  INFO [main] LogReportFile:29 - Login for Remove from cart successful
+2019-08-09 12:41:24,104  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:41:26,673  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (8f83181c7d533f6e9b5010f23b541053)
+2019-08-09 12:41:28,908  INFO [main] LogReportFile:29 - Processing Remove from cart
+2019-08-09 12:41:28,924  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:41:28,925  INFO [main] LogReportFile:29 - Expected: removefromcart_url
+2019-08-09 12:41:28,925  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:41:30,199  INFO [main] LogReportFile:29 - Clicked Merchandise
+2019-08-09 12:41:31,515  INFO [main] LogReportFile:29 - Option selected
+2019-08-09 12:41:31,573  INFO [main] LogReportFile:29 - Webpages are correctly opened
+2019-08-09 12:41:31,754  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/womens
+2019-08-09 12:41:31,755  INFO [main] LogReportFile:29 - Expected: womens_title
+2019-08-09 12:41:31,755  INFO [main] LogReportFile:29 -  Message :Merchandise title
+2019-08-09 12:41:32,013  INFO [main] LogReportFile:29 - Removed item from cart
+2019-08-09 12:41:32,013  INFO [main] LogReportFile:29 - Item Removed Successfully
+2019-08-09 12:42:14,652  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:42:17,907  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (1ff70024a6b152c6d451f471401b7ab1)
+2019-08-09 12:42:20,059  INFO [main] LogReportFile:29 - Started Test Scenario 3: Add To Cart
+2019-08-09 12:42:22,086  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:42:22,087  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:42:22,088  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:42:22,155  INFO [main] LogReportFile:29 - Login for Add to cart successful
+2019-08-09 12:42:23,115  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:42:25,920  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (8202b1027e5786f20e213908152dd41a)
+2019-08-09 12:42:28,051  INFO [main] LogReportFile:29 - Processing Add to cart
+2019-08-09 12:42:29,101  INFO [main] LogReportFile:29 - Clicked on Buy now
+2019-08-09 12:42:29,432  INFO [main] LogReportFile:29 - Clicked incart
+2019-08-09 12:42:30,034  INFO [main] LogReportFile:29 - quantity updated
+2019-08-09 12:42:30,219  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/hot-sauces
+2019-08-09 12:42:30,220  INFO [main] LogReportFile:29 - Expected: addtocart_url
+2019-08-09 12:42:30,220  INFO [main] LogReportFile:29 -  Message :Title verified
+2019-08-09 12:42:34,325  INFO [main] LogReportFile:29 - clicked checkout
+2019-08-09 12:42:34,343  INFO [main] LogReportFile:29 - Actual: https://10.10.10.232:8443/checkout
+2019-08-09 12:42:34,344  INFO [main] LogReportFile:29 - Expected: addtocart_checkout_url
+2019-08-09 12:42:34,344  INFO [main] LogReportFile:29 -  Message :Checkout url
+2019-08-09 12:43:36,601  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:43:39,991  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (a4d82c693c73580ce76cb991798aed3e)
+2019-08-09 12:43:42,092  INFO [main] LogReportFile:29 - Started Test Scenario 3: Add To Cart
+2019-08-09 12:43:44,150  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:43:44,151  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:43:44,151  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:43:44,214  INFO [main] LogReportFile:29 - Login for Add to cart successful
+2019-08-09 12:43:45,132  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:43:47,642  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (7ec19956f69a0a935fb30dc2fd4971c2)
+2019-08-09 12:43:49,603  INFO [main] LogReportFile:29 - Processing Add to cart
+2019-08-09 12:43:50,535  INFO [main] LogReportFile:29 - Clicked on Buy now
+2019-08-09 12:43:50,803  INFO [main] LogReportFile:29 - Clicked incart
+2019-08-09 12:43:51,238  INFO [main] LogReportFile:29 - quantity updated
+2019-08-09 12:43:51,401  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/hot-sauces
+2019-08-09 12:43:51,402  INFO [main] LogReportFile:29 - Expected: addtocart_url
+2019-08-09 12:43:51,403  INFO [main] LogReportFile:29 -  Message :Title verified
+2019-08-09 12:43:55,183  INFO [main] LogReportFile:29 - clicked checkout
+2019-08-09 12:43:55,204  INFO [main] LogReportFile:29 - Actual: https://10.10.10.232:8443/checkout
+2019-08-09 12:43:55,204  INFO [main] LogReportFile:29 - Expected: addtocart_checkout_url
+2019-08-09 12:43:55,205  INFO [main] LogReportFile:29 -  Message :Checkout url
+2019-08-09 12:44:12,695  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:44:16,235  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (97e2c9f03f5fcded02e4161212682d8d)
+2019-08-09 12:44:18,380  INFO [main] LogReportFile:29 - Started Test Scenario 4:Remove From cart
+2019-08-09 12:44:20,335  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:44:20,336  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:44:20,337  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:44:20,406  INFO [main] LogReportFile:29 - Login for Remove from cart successful
+2019-08-09 12:44:21,426  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:44:24,123  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (56f11fe73641f53e57da9574c785f323)
+2019-08-09 12:44:26,119  INFO [main] LogReportFile:29 - Processing Remove from cart
+2019-08-09 12:44:26,145  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:44:26,146  INFO [main] LogReportFile:29 - Expected: removefromcart_url
+2019-08-09 12:44:26,146  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:44:27,324  INFO [main] LogReportFile:29 - Clicked Merchandise
+2019-08-09 12:44:28,314  INFO [main] LogReportFile:29 - Option selected
+2019-08-09 12:44:28,368  INFO [main] LogReportFile:29 - Webpages are correctly opened
+2019-08-09 12:44:28,543  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/womens
+2019-08-09 12:44:28,544  INFO [main] LogReportFile:29 - Expected: womens_title
+2019-08-09 12:44:28,544  INFO [main] LogReportFile:29 -  Message :Merchandise title
+2019-08-09 12:44:28,803  INFO [main] LogReportFile:29 - Removed item from cart
+2019-08-09 12:44:28,804  INFO [main] LogReportFile:29 - Item Removed Successfully
+2019-08-09 12:45:14,710  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:45:18,098  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (bb782b7b0bd0d34e650de59a546ecacd)
+2019-08-09 12:45:20,288  INFO [main] LogReportFile:29 - Started Test Scenario 4:Remove From cart
+2019-08-09 12:45:22,435  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:45:22,436  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:45:22,437  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:45:22,491  INFO [main] LogReportFile:29 - Login for Remove from cart successful
+2019-08-09 12:45:22,496  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:45:25,140  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (99cb610e39aef42dedd0dcacb4d89f38)
+2019-08-09 12:45:27,409  INFO [main] LogReportFile:29 - Processing Remove from cart
+2019-08-09 12:45:27,434  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:45:27,434  INFO [main] LogReportFile:29 - Expected: removefromcart_url
+2019-08-09 12:45:27,435  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:45:28,613  INFO [main] LogReportFile:29 - Clicked Merchandise
+2019-08-09 12:45:29,797  INFO [main] LogReportFile:29 - Option selected
+2019-08-09 12:45:29,881  INFO [main] LogReportFile:29 - Webpages are correctly opened
+2019-08-09 12:45:30,085  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/womens
+2019-08-09 12:45:30,086  INFO [main] LogReportFile:29 - Expected: womens_title
+2019-08-09 12:45:30,086  INFO [main] LogReportFile:29 -  Message :Merchandise title
+2019-08-09 12:45:30,317  INFO [main] LogReportFile:29 - Removed item from cart
+2019-08-09 12:45:30,318  INFO [main] LogReportFile:29 - Item Removed Successfully
+2019-08-09 12:47:37,247  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:47:40,728  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (ac6971f1cf4ae754372ebeb0c0ade564)
+2019-08-09 12:47:42,999  INFO [main] LogReportFile:29 - Started Test Scenario 3: Add To Cart
+2019-08-09 12:47:45,109  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:47:45,110  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:47:45,111  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:47:45,173  INFO [main] LogReportFile:29 - Login for Add to cart successful
+2019-08-09 12:47:45,174  INFO [main] LogReportFile:29 - Processing Add to cart
+2019-08-09 12:47:46,238  INFO [main] LogReportFile:29 - Clicked on Buy now
+2019-08-09 12:47:46,564  INFO [main] LogReportFile:29 - Clicked incart
+2019-08-09 12:47:47,006  INFO [main] LogReportFile:29 - quantity updated
+2019-08-09 12:47:47,189  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/hot-sauces
+2019-08-09 12:47:47,190  INFO [main] LogReportFile:29 - Expected: addtocart_url
+2019-08-09 12:47:47,190  INFO [main] LogReportFile:29 -  Message :Title verified
+2019-08-09 12:47:51,281  INFO [main] LogReportFile:29 - clicked checkout
+2019-08-09 12:47:51,299  INFO [main] LogReportFile:29 - Actual: https://10.10.10.232:8443/checkout
+2019-08-09 12:47:51,302  INFO [main] LogReportFile:29 - Expected: addtocart_checkout_url
+2019-08-09 12:47:51,303  INFO [main] LogReportFile:29 -  Message :Checkout url
+2019-08-09 12:47:52,514  INFO [main] LogReportFile:29 - Total Number of item count in dropdown list = 76
+2019-08-09 12:47:53,189  INFO [main] LogReportFile:29 - Billing process successfully done Broadleaf Commerce Demo Store - Heat Clinic - Checkout
+2019-08-09 12:47:55,757  INFO [main] LogReportFile:29 - Shipping is done Broadleaf Commerce Demo Store - Heat Clinic - Order Confirmation 20190809124755401768
+2019-08-09 12:47:55,757  INFO [main] LogReportFile:29 - Added to Cart Successfully 
+2019-08-09 12:48:29,279  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:48:32,766  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (3f638d5494803448da307559e65e65cb)
+2019-08-09 12:48:34,954  INFO [main] LogReportFile:29 - Started Test Scenario 1:Registration
+2019-08-09 12:48:37,023  INFO [main] LogReportFile:29 - Actual: https://10.10.10.232:8443/register
+2019-08-09 12:48:37,023  INFO [main] LogReportFile:29 - Expected: register_url
+2019-08-09 12:48:37,024  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:48:37,040  INFO [main] LogReportFile:29 - User Registered SuccesfullyBroadleaf Commerce Demo Store - Heat Clinic - Register
+2019-08-09 12:48:38,192  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:48:40,829  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (b65cbbc9f1c60eac41125a781fdfa263)
+2019-08-09 12:48:43,030  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 12:48:45,067  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:48:45,068  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:48:45,069  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:48:45,134  INFO [main] LogReportFile:29 - Login Successful
+2019-08-09 12:48:46,238  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:48:48,937  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (ad5f1b49bc386bbd2e8cec142e3a9fdc)
+2019-08-09 12:48:50,987  INFO [main] LogReportFile:29 - Started Test Scenario 3: Add To Cart
+2019-08-09 12:48:53,014  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:48:53,014  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:48:53,015  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:48:53,096  INFO [main] LogReportFile:29 - Login for Add to cart successful
+2019-08-09 12:48:53,097  INFO [main] LogReportFile:29 - Processing Add to cart
+2019-08-09 12:48:55,134  INFO [main] LogReportFile:29 - Clicked on Buy now
+2019-08-09 12:48:55,482  INFO [main] LogReportFile:29 - Clicked incart
+2019-08-09 12:48:55,975  INFO [main] LogReportFile:29 - quantity updated
+2019-08-09 12:48:56,187  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/hot-sauces
+2019-08-09 12:48:56,187  INFO [main] LogReportFile:29 - Expected: addtocart_url
+2019-08-09 12:48:56,188  INFO [main] LogReportFile:29 -  Message :Title verified
+2019-08-09 12:48:59,962  INFO [main] LogReportFile:29 - clicked checkout
+2019-08-09 12:48:59,979  INFO [main] LogReportFile:29 - Actual: https://10.10.10.232:8443/checkout
+2019-08-09 12:48:59,979  INFO [main] LogReportFile:29 - Expected: addtocart_checkout_url
+2019-08-09 12:48:59,980  INFO [main] LogReportFile:29 -  Message :Checkout url
+2019-08-09 12:49:01,240  INFO [main] LogReportFile:29 - Total Number of item count in dropdown list = 76
+2019-08-09 12:49:01,906  INFO [main] LogReportFile:29 - Billing process successfully done Broadleaf Commerce Demo Store - Heat Clinic - Checkout
+2019-08-09 12:49:04,560  INFO [main] LogReportFile:29 - Shipping is done Broadleaf Commerce Demo Store - Heat Clinic - Order Confirmation 20190809124904127778
+2019-08-09 12:49:04,560  INFO [main] LogReportFile:29 - Added to Cart Successfully 
+2019-08-09 12:49:05,703  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 12:49:08,279  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (aacab06f0c7aac0dca9db8d9fb59c285)
+2019-08-09 12:49:10,383  INFO [main] LogReportFile:29 - Started Test Scenario 4:Remove From cart
+2019-08-09 12:49:12,556  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:49:12,556  INFO [main] LogReportFile:29 - Expected: login_url
+2019-08-09 12:49:12,556  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:49:12,619  INFO [main] LogReportFile:29 - Login for Remove from cart successful
+2019-08-09 12:49:12,619  INFO [main] LogReportFile:29 - Processing Remove from cart
+2019-08-09 12:49:12,631  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/
+2019-08-09 12:49:12,632  INFO [main] LogReportFile:29 - Expected: removefromcart_url
+2019-08-09 12:49:12,632  INFO [main] LogReportFile:29 -  Message :Url verified
+2019-08-09 12:49:13,923  INFO [main] LogReportFile:29 - Clicked Merchandise
+2019-08-09 12:49:15,102  INFO [main] LogReportFile:29 - Option selected
+2019-08-09 12:49:15,150  INFO [main] LogReportFile:29 - Webpages are correctly opened
+2019-08-09 12:49:15,318  INFO [main] LogReportFile:29 - Actual: http://10.10.10.232:8080/womens
+2019-08-09 12:49:15,318  INFO [main] LogReportFile:29 - Expected: womens_title
+2019-08-09 12:49:15,318  INFO [main] LogReportFile:29 -  Message :Merchandise title
+2019-08-09 12:49:15,719  INFO [main] LogReportFile:29 - Removed item from cart
+2019-08-09 12:49:15,720  INFO [main] LogReportFile:29 - Item Removed Successfully
+2019-08-09 17:31:00,447  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:31:04,659  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (48e77237e0d4320260d72c586810f25f)
+2019-08-09 17:31:07,304  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:32:24,197  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:32:27,413  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (7a34c9737b4f8a821f6bb3bce81162ff)
+2019-08-09 17:32:29,560  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:35:28,377  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:35:31,812  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (1619c40cfd77da1bf297299a6795839d)
+2019-08-09 17:35:34,305  INFO [main] LogReportFile:29 - Started Test Scenario 1:Registration
+2019-08-09 17:40:35,110  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:40:38,562  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (d5ecafcc942bb3d3b89d8a57155bdf55)
+2019-08-09 17:40:40,807  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:43:38,423  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:43:41,814  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (262185ad24f7779c9817e7273533d328)
+2019-08-09 17:43:44,034  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:43:45,871  INFO [main] LogReportFile:29 - Login Successful
+2019-08-09 17:45:19,063  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:45:22,394  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (094dc05199aa0a0aeca63adb21ebf0ef)
+2019-08-09 17:45:24,582  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:46:03,784  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:46:07,172  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (5a5bee8d6307967d07e788e227fa8023)
+2019-08-09 17:46:09,362  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:47:14,191  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:47:17,646  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (9eda7a2b12319816131b754fcfc4d474)
+2019-08-09 17:47:19,690  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:50:36,278  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:50:39,972  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (b80fbcc215266c8cee3d11563c1ebbac)
+2019-08-09 17:50:42,136  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:51:19,008  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:51:22,252  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (e40ce3982a62786f72af712f63788c49)
+2019-08-09 17:51:24,622  INFO [main] LogReportFile:29 - Started Test Scenario 3: Add To Cart
+2019-08-09 17:53:30,023  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:53:33,460  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (fcb41981b45325ae3d501b47d612ca09)
+2019-08-09 17:53:35,596  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:53:53,107  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:53:56,862  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (288aca8686b1b8c458c75651bafc9b07)
+2019-08-09 17:53:59,174  INFO [main] LogReportFile:29 - Started Test Scenario 1:Registration
+2019-08-09 17:55:01,766  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:55:05,064  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (7e874e16ce93475967fade528420b2d0)
+2019-08-09 17:55:07,575  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:55:28,457  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:55:32,166  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (e218cf647d84c4586eec59a6491ebed9)
+2019-08-09 17:55:34,243  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:55:36,438  INFO [main] LogReportFile:29 - Login Successful
+2019-08-09 17:57:56,903  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:58:00,894  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (3cb69da48dddc225ff54ec35d8d4b469)
+2019-08-09 17:58:03,166  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:59:27,500  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:59:31,032  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (f54f32cefa9a4080e5bab2fdb52b99bc)
+2019-08-09 17:59:33,736  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 17:59:35,863  INFO [main] LogReportFile:29 - Login Successful
+2019-08-09 17:59:45,133  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 17:59:48,677  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (138a724d4459c8c1dba9238ee14581f4)
+2019-08-09 17:59:51,172  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 18:00:54,550  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:00:58,016  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (87e36046b93814b127fd19a033147c08)
+2019-08-09 18:01:00,213  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 18:03:12,731  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:03:16,577  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (82c2ff7540679ac86e5d2f26d6cfa24b)
+2019-08-09 18:03:18,814  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 18:04:10,713  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:04:14,084  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (dddcc0d0cad10a62f18daf4480884d5f)
+2019-08-09 18:04:16,244  INFO [main] LogReportFile:29 - Started Test Scenario 1:Registration
+2019-08-09 18:04:18,630  INFO [main] LogReportFile:29 - User Registered Succesfully 
+2019-08-09 18:05:18,211  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:05:21,671  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (00f3ab0817d27d3e8123b3d16151ab79)
+2019-08-09 18:05:23,909  INFO [main] LogReportFile:29 - Started Test Scenario 3: Add To Cart
+2019-08-09 18:07:04,485  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:07:07,948  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (c2d032ad5c40d5b96450b8567c61652d)
+2019-08-09 18:07:10,117  INFO [main] LogReportFile:29 - Started Test Scenario 3: Add To Cart
+2019-08-09 18:08:58,457  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:09:01,762  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (260343aac928a355083faef69c0dc6ff)
+2019-08-09 18:09:04,055  INFO [main] LogReportFile:29 - Started Test Scenario 3: Add To Cart
+2019-08-09 18:19:55,307  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:19:58,742  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (0750b3b7deb875b08b989b335d1bc69d)
+2019-08-09 18:20:00,894  INFO [main] LogReportFile:29 - Started Test Scenario 4:Remove From cart
+2019-08-09 18:24:09,948  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:24:17,185  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (5715e7d51894a683ba2b22a893aca97a)
+2019-08-09 18:24:26,707  INFO [main] LogReportFile:29 - Started Test Scenario 1:Registration
+2019-08-09 18:24:33,419  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:24:36,060  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (939f7f933efcf5a1bc513739b2f23e75)
+2019-08-09 18:24:39,543  INFO [main] LogReportFile:29 - Started Test Scenario 2:Login
+2019-08-09 18:24:43,418  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:24:46,754  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (78507507bf6ecd74ed7916c1d779c82b)
+2019-08-09 18:24:49,099  INFO [main] LogReportFile:29 - Started Test Scenario 3: Add To Cart
+2019-08-09 18:24:52,683  INFO [main] LogReportFile:29 - Running browser: CHROME
+2019-08-09 18:24:55,398  INFO [main] LogReportFile:29 - Running ChromeDriver: chrome on XP (153783bd0d3707234ca07937f6b6e8a1)
+2019-08-09 18:24:57,679  INFO [main] LogReportFile:29 - Started Test Scenario 4:Remove From cart
