@@ -1,0 +1,80 @@
+2019-09-19 12:30:01,997|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-09-19 12:30:02,002|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\iSrwz\OnlineFlightBooking.data.xlsx
+2019-09-19 12:30:02,003|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-19 12:30:02,003|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-19 12:30:02,003|I|Thread-1|(DELAYED) [20190919_123001] [C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx] resolve RUN ID as 20190919_123001
+2019-09-19 12:30:02,003|I|Thread-1|(DELAYED) [20190919_123001] [C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx] new thread started
+2019-09-19 12:30:02,004|I|Thread-1|No predefined nexial-setup found
+2019-09-19 12:30:02,091|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-19 12:30:02,092|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-19 12:30:02,093|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-19 12:30:02,120|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-19 12:30:03,024|I|Thread-1|[20190919_123001] executing C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx with 1 iteration(s)
+2019-09-19 12:30:03,031|I|Thread-1|[20190919_123001] create directory C:\projects\OnlineWebApplication\output\20190919_123001\captures
+2019-09-19 12:30:03,033|I|Thread-1|[20190919_123001] create directory C:\projects\OnlineWebApplication\output\20190919_123001\logs
+2019-09-19 12:30:03,741|I|Thread-1|[20190919_123001] merging test data to tmp file C:\projects\OnlineWebApplication\output\20190919_123001\OnlineFlightBooking.20190919_123003.001.xlsx
+2019-09-19 12:30:03,743|I|Thread-1|refetching data from C:\projects\OnlineWebApplication\artifact\data\OnlineFlightBooking.data.xlsx
+2019-09-19 12:30:04,186|I|Thread-1|[20190919_123001] test script and test data merged to C:\projects\OnlineWebApplication\output\20190919_123001\OnlineFlightBooking.20190919_123003.001.xlsx
+2019-09-19 12:30:05,092|I|Thread-1|STARTS
+2019-09-19 12:30:05,108|E|Thread-1|[20190919_123001] 
+/-TEST FAILED!!-----------------------------------------------------------------
+| Test Output:    C:\projects\OnlineWebApplication\output\20190919_123001\OnlineFlightBooking.20190919_123003.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Error:           no command specified on ROW 4
+2019-09-19 12:30:05,119|E|Thread-1|[20190919_123001] 
+/-TEST FAILED!!-----------------------------------------------------------------
+| Test Output:    C:\projects\OnlineWebApplication\output\20190919_123001\OnlineFlightBooking.20190919_123003.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Error:           no command specified on ROW 4 no command specified on ROW 4
+2019-09-19 12:30:05,121|I|Thread-1|OnlineFlightBooking.20190919_123003.001 - fail-immediate in effect - test execution will stop now.
+2019-09-19 12:30:07,239|I|Thread-1|[20190919_123001] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 5458 ms
+» Iterations:     [1] total 1
+» Test Steps:     0
+» Passed:         0
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\OnlineWebApplication\output\20190919_123001\OnlineFlightBooking.20190919_123003.001.xlsx
+
+
+
+2019-09-19 12:30:07,702|I|main|[20190919_123001] [C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx] now completed
+2019-09-19 12:30:07,706|I|main|[20190919_123001] all execution thread(s) have terminated
+2019-09-19 12:30:07,709|I|main|[20190919_123001] test run completed in about 6 seconds
+2019-09-19 12:30:07,823|I|main|No predefined nexial-setup found
+2019-09-19 12:30:07,862|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-19 12:30:07,864|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-19 12:30:07,866|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-19 12:30:07,869|I|main|generating HTML output for this execution to C:\projects\OnlineWebApplication\output\20190919_123001\execution-output.html
+2019-09-19 12:30:08,375|I|main|generating JUnit XML output for this execution to C:\projects\OnlineWebApplication\output\20190919_123001\junit.xml
+2019-09-19 12:30:08,422|I|main|Generated JUnit report for this execution: C:\projects\OnlineWebApplication\output\20190919_123001\junit.xml
+2019-09-19 12:30:08,423|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-19 12:30:08,424|I|main|skipped email notification as configured
+2019-09-19 12:30:08,425|I|main|Exiting Nexial...
+2019-09-19 12:30:08,429|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 6 sec.
+| » Test Steps:     0
+| » Passed:         0
+| » Failed:         0
+| » Success Rate:   0.00%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-09-19 12:30:08,434|E|main|failure found; success rate is 0.00%
+2019-09-19 12:30:08,435|I|main|End of Execution:
+OUTPUT:       C:\projects\OnlineWebApplication\output\20190919_123001
+EXECUTION:    C:\projects\OnlineWebApplication\output\20190919_123001\execution-output.html
+JUNIT XML:    C:\projects\OnlineWebApplication\output\20190919_123001\junit.xml
+SUCCESS RATE: 0.00%
+EXIT STATUS:  -13
+2019-09-19 12:30:08,438|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OnlineWebApplication\output\20190919_123001
+NEXIAL_EXECUTION_HTML: C:\projects\OnlineWebApplication\output\20190919_123001\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OnlineWebApplication\output\20190919_123001\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190919_123616" timestamp="2019-09-19T12:36:16" time="35.170" tests="16" errors="0">
+  <testsuite id="1" name="OnlineFlightBooking" package="OnlineFlightBooking" hostname="ATMECSINDT-055" timestamp="2019-09-19T12:36:18" time="29.827" tests="16" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-055" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Sandhiya.Munisamy" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="OnlineFlightBooking.xlsx" />
+      <property name="Logs" value="C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log" />
+      <property name="Data File" value="OnlineFlightBooking.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx" />
+    </properties>
+    <testcase id="OpenUrl" name="OpenUrl" classname="BookingFlight" timestamp="2019-09-19T12:36:20" time="27.888">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="maximize" name="maximize" classname="BookingFlight" timestamp="2019-09-19T12:36:29" time="18.308">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="clickOnSource" name="clickOnSource" classname="BookingFlight" timestamp="2019-09-19T12:36:31" time="16.523">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="TypeSource" name="TypeSource" classname="BookingFlight" timestamp="2019-09-19T12:36:32" time="15.285">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="ClickDownArrowSrc" name="ClickDownArrowSrc" classname="BookingFlight" timestamp="2019-09-19T12:36:34" time="14.187">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="ClickEnterSrc" name="ClickEnterSrc" classname="BookingFlight" timestamp="2019-09-19T12:36:35" time="12.890">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="TypeDestination" name="TypeDestination" classname="BookingFlight" timestamp="2019-09-19T12:36:36" time="11.631">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="ClickDownArrowDest" name="ClickDownArrowDest" classname="BookingFlight" timestamp="2019-09-19T12:36:37" time="10.710">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="ClickEnterDes" name="ClickEnterDes" classname="BookingFlight" timestamp="2019-09-19T12:36:38" time="9.413">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="SelectDepartureDate" name="SelectDepartureDate" classname="BookingFlight" timestamp="2019-09-19T12:36:40" time="8.133">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="ClickReturnDate" name="ClickReturnDate" classname="BookingFlight" timestamp="2019-09-19T12:36:40" time="7.391">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="SelectReturnDate" name="SelectReturnDate" classname="BookingFlight" timestamp="2019-09-19T12:36:41" time="6.608">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="ClickSearch" name="ClickSearch" classname="BookingFlight" timestamp="2019-09-19T12:36:42" time="5.888">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="clickFlight" name="clickFlight" classname="BookingFlight" timestamp="2019-09-19T12:36:43" time="5.018">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="ClickBook" name="ClickBook" classname="BookingFlight" timestamp="2019-09-19T12:36:44" time="3.304">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+    <testcase id="writedatatocsv" name="writedatatocsv" classname="BookingFlight" timestamp="2019-09-19T12:36:46" time="2.150">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_123616\logs\nexial-20190919_123616.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

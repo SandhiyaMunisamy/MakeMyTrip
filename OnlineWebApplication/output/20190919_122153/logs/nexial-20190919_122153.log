@@ -1,0 +1,121 @@
+2019-09-19 12:21:53,443|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-09-19 12:21:53,450|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\fbAIX\OrangeHRM.data.xlsx
+2019-09-19 12:21:53,450|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-19 12:21:53,450|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-19 12:21:53,450|I|Thread-1|(DELAYED) [20190919_122153] [C:\projects\OnlineWebApplication\artifact\script\OrangeHRM.xlsx] resolve RUN ID as 20190919_122153
+2019-09-19 12:21:53,450|I|Thread-1|(DELAYED) [20190919_122153] [C:\projects\OnlineWebApplication\artifact\script\OrangeHRM.xlsx] new thread started
+2019-09-19 12:21:53,451|I|Thread-1|No predefined nexial-setup found
+2019-09-19 12:21:53,553|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-19 12:21:53,554|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-19 12:21:53,555|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-19 12:21:53,583|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-19 12:21:54,507|I|Thread-1|[20190919_122153] executing C:\projects\OnlineWebApplication\artifact\script\OrangeHRM.xlsx with 1 iteration(s)
+2019-09-19 12:21:54,514|I|Thread-1|[20190919_122153] create directory C:\projects\OnlineWebApplication\output\20190919_122153\captures
+2019-09-19 12:21:54,515|I|Thread-1|[20190919_122153] create directory C:\projects\OnlineWebApplication\output\20190919_122153\logs
+2019-09-19 12:21:55,396|I|Thread-1|[20190919_122153] merging test data to tmp file C:\projects\OnlineWebApplication\output\20190919_122153\OrangeHRM.20190919_122154.001.xlsx
+2019-09-19 12:21:55,400|I|Thread-1|refetching data from C:\projects\OnlineWebApplication\artifact\data\OrangeHRM.data.xlsx
+2019-09-19 12:21:55,828|I|Thread-1|[20190919_122153] test script and test data merged to C:\projects\OnlineWebApplication\output\20190919_122153\OrangeHRM.20190919_122154.001.xlsx
+2019-09-19 12:21:56,680|I|Thread-1|STARTS
+2019-09-19 12:21:56,704|I|Thread-1|OrangeHRM.20190919_122154.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-19 12:21:56,712|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario - executing test scenario
+2019-09-19 12:21:56,716|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|Openurl - executing activity
+2019-09-19 12:21:57,326|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|Openurl|#  5|web.open(url) - executing open(url)(${url})
+2019-09-19 12:21:57,340|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-19 12:21:57,346|I|Thread-1|init chrome
+2019-09-19 12:22:00,338|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-19 12:22:00,362|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-19 12:22:00,380|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-19 12:22:00,427|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|Openurl|#  5|web.open(url) - default browser stability wait time is 3000 ms
+2019-09-19 12:22:04,005|I|Thread-1|current browser window handle:CDwindow-5AAD62D1E01E30CD421173BFFC46870D
+2019-09-19 12:22:04,305|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|Openurl|#  5|web.open(url) - PASS opened URL https://opensource-demo.orangehrmlive.com/index.php/auth/validateCredentials
+2019-09-19 12:22:04,312|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|MaximizeWindow - executing activity
+2019-09-19 12:22:04,915|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|MaximizeWindow|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-09-19 12:22:06,088|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|MaximizeWindow|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-09-19 12:22:06,091|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|ClickUsername - executing activity
+2019-09-19 12:22:06,693|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|ClickUsername|#  7|web.click(locator) - executing click(locator)(${txt.username.loc})
+2019-09-19 12:22:06,749|I|Thread-1|clicking '//div[@id='divUsername']/input'...
+2019-09-19 12:22:06,792|I|Thread-1|click target via JS, @id=txtUsername
+2019-09-19 12:22:06,838|I|Thread-1|clicked -> true
+2019-09-19 12:22:06,841|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|ClickUsername|#  7|web.click(locator) - PASS click via JS event
+2019-09-19 12:22:06,844|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|EnterUserName - executing activity
+2019-09-19 12:22:07,445|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|EnterUserName|#  8|web.type(locator,value) - executing type(locator,value)(${txt.username.loc}, ${username})
+2019-09-19 12:22:07,743|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|EnterUserName|#  8|web.type(locator,value) - PASS typed text at '//div[@id='divUsername']/input'
+2019-09-19 12:22:07,749|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|ClickPassword - executing activity
+2019-09-19 12:22:08,360|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|ClickPassword|#  9|web.click(locator) - executing click(locator)(${txt.pass.loc})
+2019-09-19 12:22:09,215|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|ClickPassword|#  9|web.click(locator) - FAIL No element via locator '//div[@class='Xb9hP']/input[@type='password']'
+2019-09-19 12:22:09,219|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|EnterPassword - executing activity
+2019-09-19 12:22:09,821|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|EnterPassword|# 10|web.type(locator,value) - executing type(locator,value)(${txt.pass.loc}, ${password})
+2019-09-19 12:22:10,707|E|Thread-1|[20190919_122153] EXECUTING COMMAND: web.type(locator,value)('//div[@class='Xb9hP']/input[@type='password']', '${password}')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Xb9hP']/input[@type='password']"}   (Session info: chrome=77.0.3865.90)...
+2019-09-19 12:22:10,709|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|EnterPassword|# 10|web.type(locator,value) - FAIL EXECUTING COMMAND: web.type(locator,value)('//div[@class='Xb9hP']/input[@type='password']', '${password}')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='Xb9hP']/input[@type='password']"}   (Session info: chrome=77.0.3865.90)...
+2019-09-19 12:22:10,712|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|signin - executing activity
+2019-09-19 12:22:11,314|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|signin|# 11|web.click(locator) - executing click(locator)(${btn.login.loc})
+2019-09-19 12:22:11,362|I|Thread-1|clicking '//div[@id='divLoginButton']/input'...
+2019-09-19 12:22:11,388|I|Thread-1|click target via JS, @id=btnLogin
+2019-09-19 12:22:11,432|I|Thread-1|clicked -> true
+2019-09-19 12:22:11,436|I|Thread-1|OrangeHRM.20190919_122154.001|Scenario|signin|# 11|web.click(locator) - PASS click via JS event
+2019-09-19 12:22:11,655|I|Thread-1|[OrangeHRM.20190919_122154.001|Scenario] saving test scenario
+2019-09-19 12:22:11,995|I|Thread-1|[20190919_122153] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OnlineWebApplication\output\20190919_122153\OrangeHRM.20190919_122154.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 15263 ms
+» Test Steps:     7
+» Error(s):       2
+
+
+
+2019-09-19 12:22:14,158|I|Thread-1|[20190919_122153] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OnlineWebApplication\artifact\script\OrangeHRM.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 20932 ms
+» Iterations:     [1] total 1
+» Test Steps:     7
+» Passed:         5
+» Error(s):       2
+» Iteration 1 of 1: C:\projects\OnlineWebApplication\output\20190919_122153\OrangeHRM.20190919_122154.001.xlsx
+
+
+
+2019-09-19 12:22:14,255|I|main|[20190919_122153] [C:\projects\OnlineWebApplication\artifact\script\OrangeHRM.xlsx] now completed
+2019-09-19 12:22:14,256|I|main|[20190919_122153] all execution thread(s) have terminated
+2019-09-19 12:22:14,257|I|main|[20190919_122153] test run completed in about 21 seconds
+2019-09-19 12:22:14,367|I|main|No predefined nexial-setup found
+2019-09-19 12:22:14,421|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-19 12:22:14,423|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-19 12:22:14,424|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-19 12:22:14,426|I|main|generating HTML output for this execution to C:\projects\OnlineWebApplication\output\20190919_122153\execution-output.html
+2019-09-19 12:22:15,070|I|main|generating JUnit XML output for this execution to C:\projects\OnlineWebApplication\output\20190919_122153\junit.xml
+2019-09-19 12:22:15,120|I|main|Generated JUnit report for this execution: C:\projects\OnlineWebApplication\output\20190919_122153\junit.xml
+2019-09-19 12:22:15,136|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-19 12:22:15,137|I|main|skipped email notification as configured
+2019-09-19 12:22:15,139|I|main|Exiting Nexial...
+2019-09-19 12:22:15,140|I|main|shutdown starts...
+2019-09-19 12:22:15,142|I|main|Shutting down 'chrome' webdriver...
+2019-09-19 12:22:22,010|I|main|shutdown ends...
+2019-09-19 12:22:22,016|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 21 sec.
+| » Test Steps:     7
+| » Passed:         5
+| » Failed:         2
+| » Success Rate:   71.43%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-09-19 12:22:22,030|E|main|failure found; success rate is 71.43%
+2019-09-19 12:22:22,036|I|main|End of Execution:
+OUTPUT:       C:\projects\OnlineWebApplication\output\20190919_122153
+EXECUTION:    C:\projects\OnlineWebApplication\output\20190919_122153\execution-output.html
+JUNIT XML:    C:\projects\OnlineWebApplication\output\20190919_122153\junit.xml
+SUCCESS RATE: 71.43%
+EXIT STATUS:  -13
+2019-09-19 12:22:22,045|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OnlineWebApplication\output\20190919_122153
+NEXIAL_EXECUTION_HTML: C:\projects\OnlineWebApplication\output\20190919_122153\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OnlineWebApplication\output\20190919_122153\junit.xml
+NEXIAL_SUCCESS_RATE:   71.43%
+NEXIAL_EXIT_STATUS:    -13

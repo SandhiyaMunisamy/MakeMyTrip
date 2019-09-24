@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190919_130249" timestamp="2019-09-19T13:02:49" time="21.036" tests="1" errors="1">
+  <testsuite id="1" name="OnlineFlightBooking" package="OnlineFlightBooking" hostname="ATMECSINDT-055" timestamp="2019-09-19T13:02:51" time="17.263" tests="1" errors="1">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-055" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Sandhiya.Munisamy" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="OnlineFlightBooking.xlsx" />
+      <property name="Logs" value="C:\projects\OnlineWebApplication\output\20190919_130249\logs\nexial-20190919_130249.log" />
+      <property name="Data File" value="OnlineFlightBooking.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx" />
+    </properties>
+    <testcase id="OpenUrl" name="OpenUrl" classname="BookingFlight" timestamp="2019-09-19T13:02:53" time="14.962">
+      <failure type="failure found in test activity" message="1 of 1 FAILED. Check C:\projects\OnlineWebApplication\output\20190919_130249\OnlineFlightBooking.20190919_130251.001.xlsx for execution result, C:\projects\OnlineWebApplication\output\20190919_130249\logs\nexial-20190919_130249.log for execution logs" />
+      <system-out>Total : 1
+Passed: 0
+Failed: 1
+Output: C:\projects\OnlineWebApplication\output\20190919_130249\OnlineFlightBooking.20190919_130251.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_130249\logs\nexial-20190919_130249.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,119 @@
+2019-09-19 12:10:11,751|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-09-19 12:10:11,757|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\YhfHW\gmail.data.xlsx
+2019-09-19 12:10:11,757|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-19 12:10:11,757|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-19 12:10:11,757|I|Thread-1|(DELAYED) [20190919_121011] [C:\projects\OnlineWebApplication\artifact\script\gmail.xlsx] resolve RUN ID as 20190919_121011
+2019-09-19 12:10:11,757|I|Thread-1|(DELAYED) [20190919_121011] [C:\projects\OnlineWebApplication\artifact\script\gmail.xlsx] new thread started
+2019-09-19 12:10:11,758|I|Thread-1|No predefined nexial-setup found
+2019-09-19 12:10:11,857|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-19 12:10:11,858|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-19 12:10:11,860|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-19 12:10:11,890|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-19 12:10:12,715|I|Thread-1|[20190919_121011] executing C:\projects\OnlineWebApplication\artifact\script\gmail.xlsx with 1 iteration(s)
+2019-09-19 12:10:12,721|I|Thread-1|[20190919_121011] create directory C:\projects\OnlineWebApplication\output\20190919_121011\captures
+2019-09-19 12:10:12,725|I|Thread-1|[20190919_121011] create directory C:\projects\OnlineWebApplication\output\20190919_121011\logs
+2019-09-19 12:10:13,491|I|Thread-1|[20190919_121011] merging test data to tmp file C:\projects\OnlineWebApplication\output\20190919_121011\gmail.20190919_121012.001.xlsx
+2019-09-19 12:10:13,492|I|Thread-1|refetching data from C:\projects\OnlineWebApplication\artifact\data\gmail.data.xlsx
+2019-09-19 12:10:13,781|I|Thread-1|[20190919_121011] test script and test data merged to C:\projects\OnlineWebApplication\output\20190919_121011\gmail.20190919_121012.001.xlsx
+2019-09-19 12:10:14,680|I|Thread-1|STARTS
+2019-09-19 12:10:14,703|I|Thread-1|gmail.20190919_121012.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-19 12:10:14,711|I|Thread-1|gmail.20190919_121012.001|Scenario - executing test scenario
+2019-09-19 12:10:14,713|I|Thread-1|gmail.20190919_121012.001|Scenario|Activity 1 - executing activity
+2019-09-19 12:10:15,317|I|Thread-1|gmail.20190919_121012.001|Scenario|Activity 1|#  5|base.verbose(text) - executing verbose(text)(Hello World! It's now $(sysdate|now|yyyy-MM-dd HH:mm:ss.S))
+2019-09-19 12:10:15,411|I|Thread-1|gmail.20190919_121012.001|Scenario|Activity 1|#  5|base.verbose(text) - Hello World! It's now 2019-09-19 12:10:15.342
+2019-09-19 12:10:15,615|I|Thread-1|gmail.20190919_121012.001|Scenario|Activity 1|#  5|base.verbose(text) - PASS 
+2019-09-19 12:10:15,618|I|Thread-1|gmail.20190919_121012.001|Scenario|openUrl - executing activity
+2019-09-19 12:10:16,221|I|Thread-1|gmail.20190919_121012.001|Scenario|openUrl|#  6|web.open(url) - executing open(url)(https://accounts.google.com)
+2019-09-19 12:10:16,231|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-19 12:10:16,240|I|Thread-1|init chrome
+2019-09-19 12:10:19,258|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-19 12:10:19,291|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-19 12:10:19,311|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-19 12:10:19,362|I|Thread-1|gmail.20190919_121012.001|Scenario|openUrl|#  6|web.open(url) - default browser stability wait time is 3000 ms
+2019-09-19 12:10:22,515|I|Thread-1|current browser window handle:CDwindow-AFAD7905F28EBC4544FC78D20BD52653
+2019-09-19 12:10:22,551|I|Thread-1|gmail.20190919_121012.001|Scenario|openUrl|#  6|web.open(url) - PASS opened URL https://accounts.google.com
+2019-09-19 12:10:22,554|I|Thread-1|gmail.20190919_121012.001|Scenario|Email - executing activity
+2019-09-19 12:10:23,155|I|Thread-1|gmail.20190919_121012.001|Scenario|Email|#  7|web.type(locator,value) - executing type(locator,value)(${txt.email.loc}, ${email})
+2019-09-19 12:10:23,169|E|Thread-1|invalid locator:
+2019-09-19 12:10:23,170|E|Thread-1|invalid locator:
+2019-09-19 12:10:23,173|I|Thread-1|gmail.20190919_121012.001|Scenario|Email|#  7|web.type(locator,value) - FAIL invalid locator:
+2019-09-19 12:10:23,175|I|Thread-1|gmail.20190919_121012.001|Scenario|NextButton - executing activity
+2019-09-19 12:10:23,778|I|Thread-1|gmail.20190919_121012.001|Scenario|NextButton|#  8|web.click(locator) - executing click(locator)(${btn.next.loc})
+2019-09-19 12:10:23,789|E|Thread-1|invalid locator:
+2019-09-19 12:10:23,790|E|Thread-1|invalid locator:
+2019-09-19 12:10:23,793|I|Thread-1|gmail.20190919_121012.001|Scenario|NextButton|#  8|web.click(locator) - FAIL invalid locator:
+2019-09-19 12:10:23,794|I|Thread-1|gmail.20190919_121012.001|Scenario|password - executing activity
+2019-09-19 12:10:24,396|I|Thread-1|gmail.20190919_121012.001|Scenario|password|#  9|web.type(locator,value) - executing type(locator,value)(${txt.pass.loc}, ${TopSecret})
+2019-09-19 12:10:25,284|E|Thread-1|[20190919_121011] EXECUTING COMMAND: web.type(locator,value)('//div[@id='divPassword']/input', 'd88c8735241349bc99bdfd8a8e63ebc5e351f13efe7e9f937ee49edad3cdfa1e')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='divPassword']/input"}   (Session info: chrome=77.0.3865.90)...
+2019-09-19 12:10:25,288|I|Thread-1|gmail.20190919_121012.001|Scenario|password|#  9|web.type(locator,value) - FAIL EXECUTING COMMAND: web.type(locator,value)('//div[@id='divPassword']/input', 'd88c8735241349bc99bdfd8a8e63ebc5e351f13efe7e9f937ee49edad3cdfa1e')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='divPassword']/input"}   (Session info: chrome=77.0.3865.90)...
+2019-09-19 12:10:25,292|I|Thread-1|gmail.20190919_121012.001|Scenario|submitButton - executing activity
+2019-09-19 12:10:25,896|I|Thread-1|gmail.20190919_121012.001|Scenario|submitButton|# 10|web.click(locator) - executing click(locator)(${btn.submit.loc})
+2019-09-19 12:10:25,909|E|Thread-1|invalid locator:
+2019-09-19 12:10:25,910|E|Thread-1|invalid locator:
+2019-09-19 12:10:28,809|I|Thread-1|gmail.20190919_121012.001|Scenario|submitButton|# 10|web.click(locator) - FAIL invalid locator:
+2019-09-19 12:10:29,017|I|Thread-1|[gmail.20190919_121012.001|Scenario] saving test scenario
+2019-09-19 12:10:29,388|I|Thread-1|[20190919_121011] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OnlineWebApplication\output\20190919_121011\gmail.20190919_121012.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 14672 ms
+» Test Steps:     6
+» Error(s):       4
+
+
+
+2019-09-19 12:10:31,725|I|Thread-1|[20190919_121011] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OnlineWebApplication\artifact\script\gmail.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 20157 ms
+» Iterations:     [1] total 1
+» Test Steps:     6
+» Passed:         2
+» Error(s):       4
+» Iteration 1 of 1: C:\projects\OnlineWebApplication\output\20190919_121011\gmail.20190919_121012.001.xlsx
+
+
+
+2019-09-19 12:10:32,579|I|main|[20190919_121011] [C:\projects\OnlineWebApplication\artifact\script\gmail.xlsx] now completed
+2019-09-19 12:10:32,580|I|main|[20190919_121011] all execution thread(s) have terminated
+2019-09-19 12:10:32,581|I|main|[20190919_121011] test run completed in about 21 seconds
+2019-09-19 12:10:32,825|I|main|No predefined nexial-setup found
+2019-09-19 12:10:32,889|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-19 12:10:32,889|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-19 12:10:32,891|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-19 12:10:32,893|I|main|generating HTML output for this execution to C:\projects\OnlineWebApplication\output\20190919_121011\execution-output.html
+2019-09-19 12:10:33,599|I|main|generating JUnit XML output for this execution to C:\projects\OnlineWebApplication\output\20190919_121011\junit.xml
+2019-09-19 12:10:33,662|I|main|Generated JUnit report for this execution: C:\projects\OnlineWebApplication\output\20190919_121011\junit.xml
+2019-09-19 12:10:33,683|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-19 12:10:33,683|I|main|skipped email notification as configured
+2019-09-19 12:10:33,685|I|main|Exiting Nexial...
+2019-09-19 12:10:33,686|I|main|shutdown starts...
+2019-09-19 12:10:33,688|I|main|Shutting down 'chrome' webdriver...
+2019-09-19 12:10:42,433|I|main|shutdown ends...
+2019-09-19 12:10:42,440|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 21 sec.
+| » Test Steps:     6
+| » Passed:         2
+| » Failed:         4
+| » Success Rate:   33.33%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-09-19 12:10:42,450|E|main|failure found; success rate is 33.33%
+2019-09-19 12:10:42,457|I|main|End of Execution:
+OUTPUT:       C:\projects\OnlineWebApplication\output\20190919_121011
+EXECUTION:    C:\projects\OnlineWebApplication\output\20190919_121011\execution-output.html
+JUNIT XML:    C:\projects\OnlineWebApplication\output\20190919_121011\junit.xml
+SUCCESS RATE: 33.33%
+EXIT STATUS:  -13
+2019-09-19 12:10:42,466|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OnlineWebApplication\output\20190919_121011
+NEXIAL_EXECUTION_HTML: C:\projects\OnlineWebApplication\output\20190919_121011\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OnlineWebApplication\output\20190919_121011\junit.xml
+NEXIAL_SUCCESS_RATE:   33.33%
+NEXIAL_EXIT_STATUS:    -13

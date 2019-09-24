@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190919_122925" timestamp="2019-09-19T12:29:25" time="6.028" tests="0" errors="0">
+  <testsuite id="1" name="OnlineFlightBooking" package="OnlineFlightBooking" hostname="ATMECSINDT-055" timestamp="2019-09-19T12:29:27" time="1.876" tests="0" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-055" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Sandhiya.Munisamy" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="OnlineFlightBooking.xlsx" />
+    </properties>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+description,project,release,story / feature,test id,author,execution summary
+To automate the goibibo web application and to book a flight by searching the source,destination,departure date,return date and number of passengers for a round trip.After searching the filght have to select and book the flight.,Nexial ,Sandhiya Munisamy
+activity,description,cmd type,command,param 1,param 2,param 3,param 4,param 5,flow controls,screenshot,elapsed ms,result,reason
+OpenUrl,To open the given url,web,open(url),https://www.goibibo.com/
+maximize,Maximize the browser window,web,maximizeWindow()
+AssertLogo,To assert logo image by text,web,assertVisible(locator),${img.logo.loc}
+AssertTitle,To assert tilte of web page,web,assertVisible(locator),${txt.title.loc}
+ClickOnSource,To click the source location,web,click(locator),${txt.source.loc}
+TypeSource,To type the source location,web,type(locator,value),${txt.source.loc},${sourceLocation}
+ClickDownArrowSrc,To click down arrow for source location,web,typeKeys(locator,value),${txt.source.loc},${downArrow}
+ClickEnterSrc,To click enter key for source location,web,typeKeys(locator,value),${txt.source.loc},${enterKey}
+TypeDestination,To type the destination location,web,type(locator,value),${txt.destination.loc},${destinationLocation}
+ClickDownArrowDest,To click down arrow for destination location,web,typeKeys(locator,value),${txt.destination.loc},${downArrow}
+ClickEnterDes,To click enter key for destination location,web,typeKeys(locator,value),${txt.destination.loc},${enterKey}
+SelectDepartureDate,To select the Departure date,web,click(locator),${btn.departdate.loc}
+ClickReturnDate,To Click on departure for round trip,web,click(locator),${txt.returndate.loc}
+SelectReturnDate,To select the Return date,web,click(locator),${btn.returndate.loc}
+ClickSearch,To search for the flights,web,click(locator),${btn.search.loc}
+clickFlight,To click the flight,web,click(locator),${btn.flight.loc}
+ClickBook,To click the book option,web,click(locator),${btn.book.loc}
+writedatatocsv,To read from data file and write in csv file ,csv,fromExcel(excel,worksheet,csvFile),${DataFileLocation},BookingFlight,${CSVFileLocation}

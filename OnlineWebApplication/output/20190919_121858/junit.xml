@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190919_121858" timestamp="2019-09-19T12:18:58" time="22.063" tests="7" errors="2">
+  <testsuite id="1" name="OrangeHRM" package="OrangeHRM" hostname="ATMECSINDT-055" timestamp="2019-09-19T12:19:00" time="17.962" tests="7" errors="2">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-055" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Sandhiya.Munisamy" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="OrangeHRM.xlsx" />
+      <property name="Logs" value="C:\projects\OnlineWebApplication\output\20190919_121858\logs\nexial-20190919_121858.log" />
+      <property name="Data File" value="OrangeHRM.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\OnlineWebApplication\artifact\script\OrangeHRM.xlsx" />
+    </properties>
+    <testcase id="Openurl" name="Openurl" classname="Scenario" timestamp="2019-09-19T12:19:02" time="15.924">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_121858\OrangeHRM.20190919_121900.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_121858\logs\nexial-20190919_121858.log</system-out>
+    </testcase>
+    <testcase id="MaximizeWindow" name="MaximizeWindow" classname="Scenario" timestamp="2019-09-19T12:19:10" time="7.565">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_121858\OrangeHRM.20190919_121900.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_121858\logs\nexial-20190919_121858.log</system-out>
+    </testcase>
+    <testcase id="ClickUsername" name="ClickUsername" classname="Scenario" timestamp="2019-09-19T12:19:12" time="5.786">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_121858\OrangeHRM.20190919_121900.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_121858\logs\nexial-20190919_121858.log</system-out>
+    </testcase>
+    <testcase id="EnterUserName" name="EnterUserName" classname="Scenario" timestamp="2019-09-19T12:19:13" time="5.050">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_121858\OrangeHRM.20190919_121900.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_121858\logs\nexial-20190919_121858.log</system-out>
+    </testcase>
+    <testcase id="ClickPassword" name="ClickPassword" classname="Scenario" timestamp="2019-09-19T12:19:13" time="4.182">
+      <failure type="failure found in test activity" message="1 of 1 FAILED. Check C:\projects\OnlineWebApplication\output\20190919_121858\OrangeHRM.20190919_121900.001.xlsx for execution result, C:\projects\OnlineWebApplication\output\20190919_121858\logs\nexial-20190919_121858.log for execution logs" />
+      <system-out>Total : 1
+Passed: 0
+Failed: 1
+Output: C:\projects\OnlineWebApplication\output\20190919_121858\OrangeHRM.20190919_121900.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_121858\logs\nexial-20190919_121858.log</system-out>
+    </testcase>
+    <testcase id="EnterPassword" name="EnterPassword" classname="Scenario" timestamp="2019-09-19T12:19:15" time="2.705">
+      <failure type="failure found in test activity" message="1 of 1 FAILED. Check C:\projects\OnlineWebApplication\output\20190919_121858\OrangeHRM.20190919_121900.001.xlsx for execution result, C:\projects\OnlineWebApplication\output\20190919_121858\logs\nexial-20190919_121858.log for execution logs" />
+      <system-out>Total : 1
+Passed: 0
+Failed: 1
+Output: C:\projects\OnlineWebApplication\output\20190919_121858\OrangeHRM.20190919_121900.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_121858\logs\nexial-20190919_121858.log</system-out>
+    </testcase>
+    <testcase id="signin" name="signin" classname="Scenario" timestamp="2019-09-19T12:19:16" time="1.207">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OnlineWebApplication\output\20190919_121858\OrangeHRM.20190919_121900.001.xlsx
+Logs  : C:\projects\OnlineWebApplication\output\20190919_121858\logs\nexial-20190919_121858.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

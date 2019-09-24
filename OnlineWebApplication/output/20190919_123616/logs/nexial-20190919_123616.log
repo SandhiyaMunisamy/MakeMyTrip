@@ -1,0 +1,160 @@
+2019-09-19 12:36:17,279|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-09-19 12:36:17,285|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\USSBq\OnlineFlightBooking.data.xlsx
+2019-09-19 12:36:17,286|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-19 12:36:17,286|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-19 12:36:17,286|I|Thread-1|(DELAYED) [20190919_123616] [C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx] resolve RUN ID as 20190919_123616
+2019-09-19 12:36:17,286|I|Thread-1|(DELAYED) [20190919_123616] [C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx] new thread started
+2019-09-19 12:36:17,286|I|Thread-1|No predefined nexial-setup found
+2019-09-19 12:36:17,395|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-19 12:36:17,397|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-19 12:36:17,398|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-19 12:36:17,427|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-19 12:36:18,447|I|Thread-1|[20190919_123616] executing C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx with 1 iteration(s)
+2019-09-19 12:36:18,455|I|Thread-1|[20190919_123616] create directory C:\projects\OnlineWebApplication\output\20190919_123616\captures
+2019-09-19 12:36:18,456|I|Thread-1|[20190919_123616] create directory C:\projects\OnlineWebApplication\output\20190919_123616\logs
+2019-09-19 12:36:19,203|I|Thread-1|[20190919_123616] merging test data to tmp file C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+2019-09-19 12:36:19,205|I|Thread-1|refetching data from C:\projects\OnlineWebApplication\artifact\data\OnlineFlightBooking.data.xlsx
+2019-09-19 12:36:19,560|I|Thread-1|[20190919_123616] test script and test data merged to C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+2019-09-19 12:36:20,346|I|Thread-1|STARTS
+2019-09-19 12:36:20,374|I|Thread-1|OnlineFlightBooking.20190919_123618.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-19 12:36:20,388|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight - executing test scenario
+2019-09-19 12:36:20,391|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|OpenUrl - executing activity
+2019-09-19 12:36:20,997|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|OpenUrl|#  5|web.open(url) - executing open(url)(https://www.goibibo.com/)
+2019-09-19 12:36:21,004|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-19 12:36:21,007|I|Thread-1|init chrome
+2019-09-19 12:36:24,179|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-19 12:36:24,226|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-19 12:36:24,250|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-19 12:36:24,304|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|OpenUrl|#  5|web.open(url) - default browser stability wait time is 3000 ms
+2019-09-19 12:36:29,930|I|Thread-1|current browser window handle:CDwindow-649C1B08311BF5C8CA6CC01AFC0EBA20
+2019-09-19 12:36:29,967|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|OpenUrl|#  5|web.open(url) - PASS opened URL https://www.goibibo.com/
+2019-09-19 12:36:29,971|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|maximize - executing activity
+2019-09-19 12:36:30,575|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|maximize|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-09-19 12:36:31,751|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|maximize|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-09-19 12:36:31,756|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|clickOnSource - executing activity
+2019-09-19 12:36:32,359|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|clickOnSource|#  7|web.click(locator) - executing click(locator)(${txt.source.loc})
+2019-09-19 12:36:32,517|I|Thread-1|clicking '//input[@id='gosuggest_inputSrc']'...
+2019-09-19 12:36:32,577|I|Thread-1|click target via JS, @id=gosuggest_inputSrc
+2019-09-19 12:36:32,637|I|Thread-1|clicked -> true
+2019-09-19 12:36:32,962|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|clickOnSource|#  7|web.click(locator) - PASS click via JS event
+2019-09-19 12:36:32,994|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|TypeSource - executing activity
+2019-09-19 12:36:33,660|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|TypeSource|#  8|web.type(locator,value) - executing type(locator,value)(${txt.source.loc}, ${sourceLocation})
+2019-09-19 12:36:34,083|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|TypeSource|#  8|web.type(locator,value) - PASS typed text at '//input[@id='gosuggest_inputSrc']'
+2019-09-19 12:36:34,092|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickDownArrowSrc - executing activity
+2019-09-19 12:36:34,693|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickDownArrowSrc|#  9|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${txt.source.loc}, ${downArrow})
+2019-09-19 12:36:35,383|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickDownArrowSrc|#  9|web.typeKeys(locator,valu - PASS typed text at '//input[@id='gosuggest_inputSrc']'
+2019-09-19 12:36:35,389|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickEnterSrc - executing activity
+2019-09-19 12:36:35,992|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickEnterSrc|# 10|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${txt.source.loc}, ${enterKey})
+2019-09-19 12:36:36,642|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickEnterSrc|# 10|web.typeKeys(locator,valu - PASS typed text at '//input[@id='gosuggest_inputSrc']'
+2019-09-19 12:36:36,648|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|TypeDestination - executing activity
+2019-09-19 12:36:37,250|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|TypeDestination|# 11|web.type(locator,value) - executing type(locator,value)(${txt.destination.loc}, ${destinationLocation})
+2019-09-19 12:36:37,565|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|TypeDestination|# 11|web.type(locator,value) - PASS typed text at '//input[@id='gosuggest_inputDest']'
+2019-09-19 12:36:37,569|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickDownArrowDest - executing activity
+2019-09-19 12:36:38,170|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickDownArrowDest|# 12|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${txt.destination.loc}, ${downArrow})
+2019-09-19 12:36:38,862|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickDownArrowDest|# 12|web.typeKeys(locator,valu - PASS typed text at '//input[@id='gosuggest_inputDest']'
+2019-09-19 12:36:38,866|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickEnterDes - executing activity
+2019-09-19 12:36:39,468|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickEnterDes|# 13|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${txt.destination.loc}, ${enterKey})
+2019-09-19 12:36:40,141|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickEnterDes|# 13|web.typeKeys(locator,valu - PASS typed text at '//input[@id='gosuggest_inputDest']'
+2019-09-19 12:36:40,146|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|SelectDepartureDate - executing activity
+2019-09-19 12:36:40,749|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|SelectDepartureDate|# 14|web.click(locator) - executing click(locator)(${btn.departdate.loc})
+2019-09-19 12:36:40,794|I|Thread-1|clicking '//div[@class='DayPicker-Body']/div[4]/div[5]/div'...
+2019-09-19 12:36:40,821|I|Thread-1|click target via JS, @id=fare_20190926
+2019-09-19 12:36:40,883|I|Thread-1|clicked -> true
+2019-09-19 12:36:40,886|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|SelectDepartureDate|# 14|web.click(locator) - PASS click via JS event
+2019-09-19 12:36:40,888|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickReturnDate - executing activity
+2019-09-19 12:36:41,490|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickReturnDate|# 15|web.click(locator) - executing click(locator)(${txt.returndate.loc})
+2019-09-19 12:36:41,541|I|Thread-1|clicking '//input[@id='returnCalendar']'...
+2019-09-19 12:36:41,570|I|Thread-1|click target via JS, @id=returnCalendar
+2019-09-19 12:36:41,666|I|Thread-1|clicked -> true
+2019-09-19 12:36:41,669|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickReturnDate|# 15|web.click(locator) - PASS click via JS event
+2019-09-19 12:36:41,671|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|SelectReturnDate - executing activity
+2019-09-19 12:36:42,272|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|SelectReturnDate|# 16|web.click(locator) - executing click(locator)(${btn.returndate.loc})
+2019-09-19 12:36:42,314|I|Thread-1|clicking '//div[@class='DayPicker-Week'][5]/div[2]/div'...
+2019-09-19 12:36:42,337|I|Thread-1|click target via JS, @id=fare_20190930
+2019-09-19 12:36:42,385|I|Thread-1|clicked -> true
+2019-09-19 12:36:42,389|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|SelectReturnDate|# 16|web.click(locator) - PASS click via JS event
+2019-09-19 12:36:42,391|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickSearch - executing activity
+2019-09-19 12:36:42,993|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickSearch|# 17|web.click(locator) - executing click(locator)(${btn.search.loc})
+2019-09-19 12:36:43,037|I|Thread-1|clicking '//div[@class='justifyCenter col-md-1 col-sm-12 dF padLR0']/button'...
+2019-09-19 12:36:43,061|I|Thread-1|click target via JS, @id=gi_search_btn
+2019-09-19 12:36:43,248|I|Thread-1|clicked -> true
+2019-09-19 12:36:43,251|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickSearch|# 17|web.click(locator) - PASS click via JS event
+2019-09-19 12:36:43,261|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|clickFlight - executing activity
+2019-09-19 12:36:43,864|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|clickFlight|# 18|web.click(locator) - executing click(locator)(${btn.flight.loc})
+2019-09-19 12:36:44,848|I|Thread-1|clicking '(//span[@class='custRad'])[5]/label'...
+2019-09-19 12:36:44,879|I|Thread-1|click target via JS, @id=
+2019-09-19 12:36:44,971|I|Thread-1|clicked -> true
+2019-09-19 12:36:44,973|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|clickFlight|# 18|web.click(locator) - PASS click via JS event
+2019-09-19 12:36:44,975|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickBook - executing activity
+2019-09-19 12:36:45,577|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickBook|# 19|web.click(locator) - executing click(locator)(${btn.book.loc})
+2019-09-19 12:36:45,799|I|Thread-1|clicking '//div[@class='dF alignItemsEnd width30 padL5 padB3 justifyEnd fltHpySumryPrc']/span[2]/span/input'...
+2019-09-19 12:36:45,886|I|Thread-1|click target via JS, @id=
+2019-09-19 12:36:46,124|I|Thread-1|clicked -> true
+2019-09-19 12:36:46,127|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|ClickBook|# 19|web.click(locator) - PASS click via JS event
+2019-09-19 12:36:46,129|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|writedatatocsv - executing activity
+2019-09-19 12:36:46,733|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|writedatatocsv|# 20|csv.fromExcel(excel,works - executing fromExcel(excel,worksheet,csvFile)(${DataFileLocation}, BookingFlight, ${CSVFileLocation})
+2019-09-19 12:36:47,071|I|Thread-1|OnlineFlightBooking.20190919_123618.001|BookingFlight|writedatatocsv|# 20|csv.fromExcel(excel,works - PASS File converted to CSV
+2019-09-19 12:36:47,584|I|Thread-1|[OnlineFlightBooking.20190919_123618.001|BookingFlight] saving test scenario
+2019-09-19 12:36:48,255|I|Thread-1|[20190919_123616] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 27790 ms
+» Test Steps:     16
+» Error(s):       0
+
+
+
+2019-09-19 12:36:51,464|I|Thread-1|[20190919_123616] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 34399 ms
+» Iterations:     [1] total 1
+» Test Steps:     16
+» Passed:         16
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\OnlineWebApplication\output\20190919_123616\OnlineFlightBooking.20190919_123618.001.xlsx
+
+
+
+2019-09-19 12:36:52,161|I|main|[20190919_123616] [C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx] now completed
+2019-09-19 12:36:52,163|I|main|[20190919_123616] all execution thread(s) have terminated
+2019-09-19 12:36:52,164|I|main|[20190919_123616] test run completed in about 35 seconds
+2019-09-19 12:36:52,304|I|main|No predefined nexial-setup found
+2019-09-19 12:36:52,333|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-19 12:36:52,334|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-19 12:36:52,335|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-19 12:36:52,337|I|main|generating HTML output for this execution to C:\projects\OnlineWebApplication\output\20190919_123616\execution-output.html
+2019-09-19 12:36:53,281|I|main|generating JUnit XML output for this execution to C:\projects\OnlineWebApplication\output\20190919_123616\junit.xml
+2019-09-19 12:36:53,389|I|main|Generated JUnit report for this execution: C:\projects\OnlineWebApplication\output\20190919_123616\junit.xml
+2019-09-19 12:36:53,411|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-19 12:36:53,414|I|main|skipped email notification as configured
+2019-09-19 12:36:53,417|I|main|Exiting Nexial...
+2019-09-19 12:36:53,417|I|main|shutdown starts...
+2019-09-19 12:36:53,420|I|main|Shutting down 'chrome' webdriver...
+2019-09-19 12:37:00,394|I|main|shutdown ends...
+2019-09-19 12:37:00,402|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 35 sec.
+| » Test Steps:     16
+| » Passed:         16
+| » Failed:         0
+| » Success Rate:   100.00%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-09-19 12:37:00,412|I|main|ALL PASSED!
+2019-09-19 12:37:00,418|I|main|End of Execution:
+OUTPUT:       C:\projects\OnlineWebApplication\output\20190919_123616
+EXECUTION:    C:\projects\OnlineWebApplication\output\20190919_123616\execution-output.html
+JUNIT XML:    C:\projects\OnlineWebApplication\output\20190919_123616\junit.xml
+SUCCESS RATE: 100.00%
+EXIT STATUS:  0
+2019-09-19 12:37:00,433|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OnlineWebApplication\output\20190919_123616
+NEXIAL_EXECUTION_HTML: C:\projects\OnlineWebApplication\output\20190919_123616\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OnlineWebApplication\output\20190919_123616\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

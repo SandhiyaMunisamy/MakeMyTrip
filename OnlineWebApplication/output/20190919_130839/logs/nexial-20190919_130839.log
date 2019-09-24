@@ -1,0 +1,118 @@
+2019-09-19 13:08:39,510|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-09-19 13:08:39,515|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\NrWnh\OnlineFlightBooking.data.xlsx
+2019-09-19 13:08:39,515|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-19 13:08:39,515|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-19 13:08:39,515|I|Thread-1|(DELAYED) [20190919_130839] [C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx] resolve RUN ID as 20190919_130839
+2019-09-19 13:08:39,515|I|Thread-1|(DELAYED) [20190919_130839] [C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx] new thread started
+2019-09-19 13:08:39,516|I|Thread-1|No predefined nexial-setup found
+2019-09-19 13:08:39,609|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-19 13:08:39,610|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-19 13:08:39,610|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-19 13:08:39,637|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-19 13:08:40,564|I|Thread-1|[20190919_130839] executing C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx with 1 iteration(s)
+2019-09-19 13:08:40,569|I|Thread-1|[20190919_130839] create directory C:\projects\OnlineWebApplication\output\20190919_130839\captures
+2019-09-19 13:08:40,572|I|Thread-1|[20190919_130839] create directory C:\projects\OnlineWebApplication\output\20190919_130839\logs
+2019-09-19 13:08:41,369|I|Thread-1|[20190919_130839] merging test data to tmp file C:\projects\OnlineWebApplication\output\20190919_130839\OnlineFlightBooking.20190919_130840.001.xlsx
+2019-09-19 13:08:41,370|I|Thread-1|refetching data from C:\projects\OnlineWebApplication\artifact\data\OnlineFlightBooking.data.xlsx
+2019-09-19 13:08:41,736|I|Thread-1|[20190919_130839] test script and test data merged to C:\projects\OnlineWebApplication\output\20190919_130839\OnlineFlightBooking.20190919_130840.001.xlsx
+2019-09-19 13:08:42,651|I|Thread-1|STARTS
+2019-09-19 13:08:42,676|I|Thread-1|OnlineFlightBooking.20190919_130840.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-19 13:08:42,685|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - executing test scenario
+2019-09-19 13:08:42,687|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight|OpenUrl - executing activity
+2019-09-19 13:08:43,290|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight|OpenUrl|#  5|web.open(url) - executing open(url)(https://www.goibibo.com/)
+2019-09-19 13:08:43,296|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-19 13:08:43,299|I|Thread-1|init chrome
+2019-09-19 13:08:46,458|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-19 13:08:46,486|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-19 13:08:46,506|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-19 13:08:46,571|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight|OpenUrl|#  5|web.open(url) - default browser stability wait time is 3000 ms
+2019-09-19 13:08:56,639|E|Thread-1|[20190919_130839] EXECUTING COMMAND: web.open(url)('https://www.goibibo.com/')
+UNKNOWN ERROR: timeout   (Session info: chrome=77.0.3865.90)...
+2019-09-19 13:08:56,870|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight|OpenUrl|#  5|web.open(url) - FAIL EXECUTING COMMAND: web.open(url)('https://www.goibibo.com/')
+UNKNOWN ERROR: timeout   (Session info: chrome=77.0.3865.90)...
+2019-09-19 13:08:56,875|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight|OpenUrl|#  5|web.open(url) - test stopping due to failure on fail-fast command: web.open(url)
+2019-09-19 13:08:56,879|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - test activity execution failed. Because of this, all subsequent test case will be skipped
+2019-09-19 13:08:56,887|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - test activity execution ending due to EndLoopIf() flow control activated or unrecoverable execution failure.
+2019-09-19 13:08:56,891|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,894|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,896|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,897|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,899|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,901|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,905|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,907|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,908|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,911|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,913|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,917|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,921|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,923|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,926|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,944|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:56,946|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - skipping test activity due to previous failure
+2019-09-19 13:08:57,199|I|Thread-1|[OnlineFlightBooking.20190919_130840.001|BookingFlight] saving test scenario
+2019-09-19 13:08:57,509|I|Thread-1|OnlineFlightBooking.20190919_130840.001|BookingFlight - test scenario execution failed, and fail-immediate in effect. Hence all subsequent test scenarios will be skipped
+2019-09-19 13:08:57,572|I|Thread-1|[20190919_130839] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OnlineWebApplication\output\20190919_130839\OnlineFlightBooking.20190919_130840.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 14836 ms
+» Test Steps:     1
+» Error(s):       1
+
+
+
+2019-09-19 13:08:57,572|I|Thread-1|OnlineFlightBooking.20190919_130840.001 - fail-immediate in effect - test execution will stop now.
+2019-09-19 13:09:00,437|I|Thread-1|[20190919_130839] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 21143 ms
+» Iterations:     [1] total 1
+» Test Steps:     1
+» Passed:         0
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\OnlineWebApplication\output\20190919_130839\OnlineFlightBooking.20190919_130840.001.xlsx
+
+
+
+2019-09-19 13:09:01,365|I|main|[20190919_130839] [C:\projects\OnlineWebApplication\artifact\script\OnlineFlightBooking.xlsx] now completed
+2019-09-19 13:09:01,367|I|main|[20190919_130839] all execution thread(s) have terminated
+2019-09-19 13:09:01,368|I|main|[20190919_130839] test run completed in about 22 seconds
+2019-09-19 13:09:01,513|I|main|No predefined nexial-setup found
+2019-09-19 13:09:01,561|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-19 13:09:01,562|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-19 13:09:01,563|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-19 13:09:01,565|I|main|generating HTML output for this execution to C:\projects\OnlineWebApplication\output\20190919_130839\execution-output.html
+2019-09-19 13:09:02,195|I|main|generating JUnit XML output for this execution to C:\projects\OnlineWebApplication\output\20190919_130839\junit.xml
+2019-09-19 13:09:02,293|I|main|Generated JUnit report for this execution: C:\projects\OnlineWebApplication\output\20190919_130839\junit.xml
+2019-09-19 13:09:02,346|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-19 13:09:02,347|I|main|skipped email notification as configured
+2019-09-19 13:09:02,348|I|main|Exiting Nexial...
+2019-09-19 13:09:02,349|I|main|shutdown starts...
+2019-09-19 13:09:02,351|I|main|Shutting down 'chrome' webdriver...
+2019-09-19 13:09:11,110|I|main|shutdown ends...
+2019-09-19 13:09:11,116|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 22 sec.
+| » Test Steps:     1
+| » Passed:         0
+| » Failed:         1
+| » Success Rate:   0.00%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-09-19 13:09:11,127|E|main|failure found; success rate is 0.00%
+2019-09-19 13:09:11,134|I|main|End of Execution:
+OUTPUT:       C:\projects\OnlineWebApplication\output\20190919_130839
+EXECUTION:    C:\projects\OnlineWebApplication\output\20190919_130839\execution-output.html
+JUNIT XML:    C:\projects\OnlineWebApplication\output\20190919_130839\junit.xml
+SUCCESS RATE: 0.00%
+EXIT STATUS:  -13
+2019-09-19 13:09:11,144|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OnlineWebApplication\output\20190919_130839
+NEXIAL_EXECUTION_HTML: C:\projects\OnlineWebApplication\output\20190919_130839\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OnlineWebApplication\output\20190919_130839\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13
